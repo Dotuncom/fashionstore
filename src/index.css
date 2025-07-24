@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme{
+  --primary-color:'oklch(80.8% 0.114 19.571)'
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+
+}
+ 
+
+.bg-Hero{
+  background-image: url('../public/background.jpg');
+}
